@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>*{
+        margin: 0;
+        padding: 0;
+    }
+        .img2{
+            background-image: url(contact.jpg);
+            border: 2px solid black;
+            width: 100%;
+            height: 600px;
+            background-size: cover;
+        
+        }
+        .vv{
+            text-align: center;
+            text-shadow: 2px 3px 2px cyan;
+            color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 60px;
+
+        }
+        .info{
+            width: 20%;
+            float: left;
+        }
+        .img2 h2{
+            margin-top: 90px;
+            color: aliceblue;
+             margin-left: 30px;
+             text-shadow: 1px 1px 1px red;
+             font-size:35px;
+
+        }
+        .info ul{
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .info li{
+            margin-bottom: 10px;
+            color:white;
+            font-size: 30px;
+             margin-left: 30px;
+             margin-top: 20px;
+             text-shadow: 1px 1px 1px red;
+
+        }
+        .form3{
+            width:100%;
+            float: top;
+            background-color:transparent;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: -280px;
+            margin-left:800px;
+            box-shadow: 2.5px 3px 1px 1px cyan;
+        }
+        .form3:hover{
+            box-shadow: 2px 3px 1px 1px red;
+            border-color: green;
+        }
+        .form3 form{
+            border: black 7px ;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .form3 input,textarea{
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border: 5px;
+            box-shadow: 1px 1px 1px 1px cyan;
+            margin-top: 9px;
+        }
+        input,textarea:hover{
+            box-shadow: 1px 1px 1px 3px red ;
+            
+        }
+        button{
+            background-color:black;
+            color:white;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor:pointer;
+            box-shadow: 1px 1px 1px 1px greenyellow ;
+
+        }
+        button:hover{
+            color: aqua;
+            border-color: darkcyan;
+            box-shadow: 0px 0.2px 0.5px 0.4px red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="img2">
+        <h1 class="vv">CONTACT</h1>
+        
+        <div class="info">
+            <h2>HIRE/INQUIRY</h2>
+            <ul>
+                <li>+9996294784</li>
+                <li>anjali456789@gmail.com</li>
+                <li>ynr,jgadhari</li>
+                <a href="#">tw</a><br>
+                <a href="#">fb</a>
+
+            </ul>
+            <div class="form3">
+                <h1 style="text-shadow: 2px 1px 2px 3px red; margin-top: 2px; margin-bottom: 19px;color: aqua;">INFORMATION</h1>
+                <form>
+                   <label>NAME</label> <input type="text" placeholder="your name">
+                <label>EMAIL</label>    <input type="email" placeholder="your email">
+                <label>MESSAGE</label>    <textarea placeholder="MESSAGE"></textarea>
+                    <button type="button" onclick="alert('form submitted sucessfullly')">send</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
