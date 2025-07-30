@@ -1,0 +1,168 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Skills Personal Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #e9f5f2;
+    }
+
+    .header {
+      text-align: center;
+      padding: 10px 10px;
+      background-color: #d6f0e9;
+      animation-name:saini;
+      animation-iteration-count: infinite;
+      animation-duration: 2s;
+    }
+    @keyframes saini{
+    0%{background-color: burlywood;}
+    20%{background-color: palevioletred;}
+    50%{background-color: darksalmon;}
+    70%{background-color:lightgreen;}
+    }
+
+    .header img {
+      width: 150px;
+      height: 160px;
+      border:2px solid black;
+      border-radius: 50%;
+      size: cover;
+    }
+
+    .header h1 {
+      margin: 20px 0 10px;
+      font-size: 32px;
+      color: #333;
+    }
+
+    .header h1 span {
+      color: #00c3b8;
+    }
+
+    .header p {
+      color: #666;
+      font-size: 16px;
+    }
+
+    .arrow {
+      width: 20px;
+      height: 20px;
+      border: solid #00c3b8;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 5px;
+      margin-top: 20px;
+      transform: rotate(45deg);
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: white;
+    }
+
+    .section {
+      width: 45%;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .section h2 span {
+      color: #00c3b8;
+    }
+
+    .study p {
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    .study small {
+      color: #aaa;
+    }
+
+    .skills .skill {
+      margin-bottom: 15px;
+      margin-top: 5px;
+    }
+
+    .skill-name {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .bar {
+      height: 10px;
+      background-color: #eee;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 10px;
+    }
+
+    .html { width: 90%; background-color: #b2f0e8; }
+    .css { width: 70%; background-color: #ccc; }
+    .js { width: 50%; background-color: #a8e6cf; }
+    .php { width: 80%; background-color: #95c7ae; }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="anjalis.jpeg">
+    <h1>Hello<span>..!</span></h1>
+    <p style="color: darkblue;">My name is Anjali & I do Creative webpage</p>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="container">
+    <div class="section study">
+      <h2>Study<span>..!</span></h2>
+      <p style="color: brown;"><b>12th(med-sci)    from(gsss)  </b></p>
+      <p><b>BCA BACHELOR OF COMPUTER APPLICATION
+        (govt college chhachhrauli)</b><small>
+      </small></p>
+      
+    </div>
+
+    <div class="section skills">
+      <h2>Skills<span>..!</span></h2>
+      <div class="skill">
+        <div class="skill-name">Html</div>
+        <div class="bar"><div class="bar-fill html"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Css</div>
+        <div class="bar"><div class="bar-fill css"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Js</div>
+        <div class="bar"><div class="bar-fill js"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Php</div>
+        <div class="bar"><div class="bar-fill php"></div></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
